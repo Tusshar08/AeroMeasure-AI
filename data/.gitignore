@@ -1,0 +1,19 @@
+# Ignore large datasets
+raw/
+processed/
+*.csv
+*.json
+*.parquet
+*.zip
+*.tar.gz
+*.hdf5
+*.lmdb
+
+# Allow sample datasets for testing
+!sample/
+!sample/*.csv
+!sample/*.json
+
+# Ignore DVC or other dataset tracking outputs
+.dvc/
+*.dvc
